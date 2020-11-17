@@ -3,7 +3,7 @@ package com.example.memeapp;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
+//import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
@@ -13,12 +13,12 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 
 import com.android.volley.Request;
-import com.android.volley.RequestQueue;
+//import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
-import com.android.volley.toolbox.StringRequest;
-import com.android.volley.toolbox.Volley;
+//import com.android.volley.toolbox.StringRequest;
+//import com.android.volley.toolbox.Volley;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.DataSource;
 import com.bumptech.glide.load.engine.GlideException;
@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
         //ImageView i = (ImageView) findViewById(R.id.image);
         Button b1 = (Button) findViewById(R.id.share);
@@ -104,6 +105,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void nextmeme(View view) {
         Loadmeme();
-        //NEW
+
+        //NEW one
     }
 }

@@ -37,5 +37,5 @@ public class MySingleton {
     public <T> void addToRequestQueue(Request<T> req) {
         getRequestQueue().add(req);
     }
-
+//yes
 }
