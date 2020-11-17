@@ -104,5 +104,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void nextmeme(View view) {
         Loadmeme();
+        //NEW
     }
 }
